@@ -1,7 +1,7 @@
 function createTable() {
     //Write your code here
-    const numRows = prompt('Input number of rows:');    
-    const numCols = prompt('Input number of columns:');    
+    const numRows = prompt('Input number of rows');    
+    const numCols = prompt('Input number of columns');    
     const table = document.getElementById('myTable');
     
     table.innerHTML = '';
@@ -14,6 +14,6 @@ function createTable() {
         }
     }  
 }
-if (typeof module !== 'undefined') {
-    module.exports = createTable;
-}
+// if (typeof module !== 'undefined') {
+//     module.exports = createTable;
+// }
